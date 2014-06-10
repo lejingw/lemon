@@ -44,13 +44,13 @@
   <div class="control-group">
     <label class="control-label" for="username"><spring:message code="core.login.username" text="账号"/></label>
 	<div class="controls">
-      <input type='text' id="username" name='j_username' class="text" value="${sessionScope['SPRING_SECURITY_LAST_USERNAME']}">
+      <input type='text' id="username" name='j_username' class="text" value="lingo">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label" for="password"><spring:message code="core.login.password" text="密码"/></label>
 	<div class="controls">
-      <input type='password' id="password" name='j_password' class="text" value=''>
+      <input type='password' id="password" name='j_password' class="text" value='1'>
     </div>
   </div>
   <div class="control-group">
